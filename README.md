@@ -26,7 +26,7 @@ Zbudowany i zoptymalizowany model na próbce z sample==1  (mrożą Panowie kod, 
 To zadanie ma wysymulować sytuację rzeczywistą. Np. mają Panowie zdjęcia dwóch pacjenta z tomografu, Xray itp. Jedno zdjęcie 2D (x, y) pacjenta wzorowo zdrowego (id==1), drugie zdjęcie pacjenta wzorowo chorego (id==-1). To jest nasza próbka sample==1. Te dwa wzorowe zdjęcia służą Panom do zbudowania i zoptymalizowania modelu w celu rozpoznawania różnic między zdrowym i chorym pacjentem, np. zmian w płucach. 
  
 Teraz przychodzi kolejny pacjent i przynosi ze sobą zdjęcie płuc wykonane rok wcześniej. Wykonujemy mu kolejne zdjęcie i sprawdzamy czy nastąpiły jakieś zmiany w płucach w ciągu roku. To jest pacjent oznaczony sample==2. Ale szukamy konkretnych zmian. Już mamy zbudowany model do rozpoznawania tych konkretnych zmian. Stosujemy nasz algorytm i mamy odpowiedź, czy u pacjenta wystąpiły zmiany, czy nie. Następnie przychodzi kolejnych 15 pacjentów (sample==3, sample==4 .....) i powtarzamy czynność.
-[00:08]
+
 Opis jak dobrać optymalnie liczbę klastrów mogą Panowie znaleźć np. pod linkiem: https://www.displayr.com/understanding-cluster-analysis-a-comprehensive-guide/#choosing-the-right-number-of-clusters
 
 Na tym etapie nie chcę Panom sugerować jak szukać różnic przy użyciu klasteryzacji. Proszę pomyśleć, poszukać. Dajmy sobie tydzień. Jeżeli Panowie nie będą mieli żadnej idei jak to wykonać, to proszę napisać.
